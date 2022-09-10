@@ -5,9 +5,10 @@ module.exports = {
 	customSyntax: require('postcss-scss'),
 	plugins: ['stylelint-scss'],
 	rules: {
-		'at-rule-no-unknown': null,
+		'at-rule-no-unknown': 'legacy',
 		'comment-no-empty': null,
 		'function-no-unknown': null,
+    'color-function-notation': null,
 		'no-invalid-position-at-import-rule': [
 			true,
 			{
